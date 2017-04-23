@@ -11,7 +11,7 @@ const int RELAY_PIN = 6;
 //update interval for main logic
 const long UPDATE_INTERVAL = 2000;
 //target temperature.
-const float TARGET_TEMP = 25;
+const float TARGET_TEMP = 28;
 //temperature tolerance. The program will try to maintain the temperature beetween the targetTemp +(-) tolerance 
 const float TEMP_TOLERANCE = 0.5;
 //water sensor offset. it's used to tune the temperature that's being read
