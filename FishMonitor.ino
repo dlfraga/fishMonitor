@@ -47,13 +47,6 @@ long previousMillisBack = 0;
 //used to mantain the state machine
 long previousMillis = 0;
 
-//status messages
-const char STATUS_MSG_INITIAL[] = "Iniciando...";
-const char STATUS_MSG_RLAY_ON[] = "Aquecedor LIGADO";
-const char STATUS_MSG_RLAY_OFF[] = "Aquecedor DESLIGADO";
-const char STATUS_MSG_TEMP_FAIL[] = "Possivel problema no aquecedor";
-const char STATUS_MSG_SENSR_FAIL[] = "Possivel problema nos sensores";
-
 
 void loop()
 {	
